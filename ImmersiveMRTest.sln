@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmersiveMRTest", "ImmersiveMRTest.csproj", "{FBEFC479-85BC-CFE7-A009-5D855C8DC756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmersiveMRTest.Editor", "ImmersiveMRTest.Editor.csproj", "{A4EB863F-A00B-3B16-F888-B1843E33B1EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBEFC479-85BC-CFE7-A009-5D855C8DC756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBEFC479-85BC-CFE7-A009-5D855C8DC756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBEFC479-85BC-CFE7-A009-5D855C8DC756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBEFC479-85BC-CFE7-A009-5D855C8DC756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4EB863F-A00B-3B16-F888-B1843E33B1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4EB863F-A00B-3B16-F888-B1843E33B1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4EB863F-A00B-3B16-F888-B1843E33B1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4EB863F-A00B-3B16-F888-B1843E33B1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

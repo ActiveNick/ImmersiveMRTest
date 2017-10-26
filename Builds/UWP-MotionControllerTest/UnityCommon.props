@@ -1,0 +1,9 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <UnityWSASolutionName>MotionControllerTest</UnityWSASolutionName>
+        <UnityWSASolutionDir>C:\Dev\Git\ImmersiveMRTest\Builds\UWP-MotionControllerTest\</UnityWSASolutionDir>
+        <UnityProjectDir>C:\Dev\Git\ImmersiveMRTest\</UnityProjectDir>
+        <UnityWSAPlayerDir>C:\Program Files\Unity 2017.2.0f3-MRTP\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
+        <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
+    </PropertyGroup>
+</Project>
