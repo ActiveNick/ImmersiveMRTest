@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class GazeAtObjects : MonoBehaviour {
 
+    public Color focusColor;
+    private Color previousColor;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -14,10 +17,19 @@ public class GazeAtObjects : MonoBehaviour {
 		
 	}
 
-    public void ChangeColor(Color color)
+    public void ChangeColor()
+    {
+
+        Renderer r = gameObject.GetComponent<Renderer>();
+
+        previousColor = r.material.color;
+        r.material.color = focusColor;
+    }
+
+    public void ResetColor()
     {
         Renderer r = gameObject.GetComponent<Renderer>();
 
-        r.material.color = color;
+        r.material.color = previousColor;
     }
 }
